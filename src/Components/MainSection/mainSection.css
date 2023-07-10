@@ -1,0 +1,766 @@
+section {
+    height: auto;
+    width: 100%;
+    background-color: #EDEDED;
+    display: flex;
+}
+
+.sideOne {
+    height: 750px;
+    width: 32%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sideOne .sideOne-left {
+    height: 100%;
+    width: 36%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sideOne-left .profile {
+    height: 170px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 24px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile .image {
+    background: black;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    padding: 4px;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.sideOne-left p {
+    font-size: 10px;
+}
+
+.sideOne-left .menus {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 40px;
+}
+
+.menus .dashboard {
+    height: 40px;
+    width: 88%;
+    background-color: #FF00B7;
+    border-radius: 6px;
+}
+
+.menus .dashboard-2 {
+    height: 63px;
+    width: 88%;
+    border-radius: 6px;
+}
+
+.dashboard-2 .lappio {
+    height: 100%;
+    margin-left: 12px;
+    width: 91%;
+}
+
+.lappio img {
+    height: 100%;
+}
+
+.dashboard .lappi {
+    height: 100%;
+    margin-left: 12px;
+    width: 91%;
+    background: #F4F4F4;
+    align-items: center;
+    display: flex;
+}
+
+.lappi img {
+    height: 100%;
+    padding: 4px 22px;
+}
+
+
+.sideOne .sideOne-right {
+    height: 100%;
+    width: 64%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-right: 53px;
+}
+
+.sideOne-right .calendr {
+    height: 170px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 24px;
+    flex-direction: column;
+    align-items: center;
+}
+.calendr input{
+    color: #A2A2A2;
+    position: absolute;
+    right: 0px;
+    top: 11px;
+    width: 50px;
+    border-radius: 13px;
+    padding-left: 7px;
+}
+.calendr img {
+    height: 141px;
+    width: 80%;
+}
+.calendr h1{
+    position: absolute;
+    top: 18px;
+    color: #A2A2A2;
+    font-size: 16px;
+
+}
+.calendr h2{
+    position: absolute;
+    top: 65px;
+    font-size: 15px;
+    color: #A2A2A2;
+}
+
+
+.sideOne-right .name {
+    font-size: 15px;
+    margin-bottom: 19px;
+    color: #A2A2A2;
+}
+
+.sideOne-right .menus {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 68px;
+}
+
+.menus p {
+    font-size: 17px;
+}
+
+.sideOne-right .dashboard {
+    height: 40px;
+    width: 88%;
+    background-color: #FF00B7;
+    border-radius: 6px;
+}
+
+.sideOne-right .lappi {
+    height: 100%;
+    width: 93%;
+    background: #F4F4F4;
+    margin-left: 0px;
+    align-items: center;
+    display: flex;
+}
+
+.lappi img {
+    height: 100%;
+    padding: 4px 22px;
+}
+
+.sideOne-right .Settings {
+    height: auto;
+    width: 88%;
+    margin-left: 0px;
+    background-color: #FF00B7;
+    border-radius: 6px;
+}
+
+.sideOne-right .s-menu {
+    height: 100%;
+    width: 93%;
+    background: #EDEDED;
+    margin-left: 0px;
+    text-decoration: none;
+}
+
+.s-menu .list {
+    display: block;
+    border-bottom: 1px solid black;
+    width: 62%;
+    font-size: 13px;
+    margin: 0px auto;
+}
+
+.s-menu li {
+    display: block;
+    width: 62%;
+    font-size: 13px;
+    margin: 0px auto;
+}
+
+/* Side Two */
+
+.sideTwo {
+    height: 750px;
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 15px;
+}
+
+.sideTwo .variation {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.variation .v-1,
+.v-2,
+.v-3,
+.v-4 {
+    height: 100%;
+    width: 23%;
+    background-color: #4A8CC0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.variation,
+.v-1,
+.v-2,
+.v-3,
+.v-4,
+.vp {
+    font-size: 10px;
+}
+
+.variation,
+.v-1,
+.v-2,
+.v-3,
+.v-4,
+.vh1 {
+    font-size: 25px;
+}
+
+.i-c {
+    height: 100%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.i-c .i-1 {
+    height: 100%;
+    padding: 1px;
+    width: 50px;
+}
+
+/* ChartOne */
+
+.sideTwo .chart-1 {
+    height: 240px;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.chart-1 .chart-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.chart-left .left-up {
+    display: flex;
+    height: 14%;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.left-up h2 span {
+    height: 17px;
+    background: #FF00B7;
+    width: 20px;
+    border-radius: 15px;
+    display: inline-block;
+    padding: 2px;
+}
+
+.left-up .ana-line {
+    position: absolute;
+    right: 40px;
+}
+
+.left-up input {
+    border-radius: 11px;
+}
+
+.left-up ::-webkit-input-placeholder {
+    padding-left: 20px;
+}
+
+.chart-left .left-down {
+    display: flex;
+    height: 80%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-down .smile {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-down .smile img {
+    height: 115px;
+}
+
+.chart-1 .chart-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chart-right .cru {
+    width: 100%;
+    height: 13%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cru select {
+    height: 24px;
+    border-radius: 12px;
+    width: 88px;
+    color: #B4B5B7;
+    border: 1px solid #DCDDDE;
+}
+
+.chart-right .crd {
+    height: 87%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chart-right .crd img {
+    height: 120px;
+}
+
+/* chart-2 */
+
+.chart-2 {
+    height: 209px;
+    width: 100%;
+    display: flex;
+    border-radius: 4px;
+}
+
+.chart-2 .left-2 {
+    width: 50%;
+    height: 100%;
+}
+
+.left-2 .clu {
+    display: flex;
+    justify-content: space-around;
+    height: 17%;
+    align-items: center;
+}
+
+.clu span {
+    border-radius: 50%;
+    height: 21px;
+    border: 1px solid black;
+}
+
+.chart-2 .right-2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left-2 .cld {
+    height: 83%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cld p {
+    height: 100px;
+    width: 100px;
+    border: 4px solid #FF00B7;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 8px 4px #D7D7D7;
+}
+
+.cld .clw {
+    background: #FF00B7;
+    width: 23%;
+    height: 120px;
+    border-radius: 8px;
+}
+
+.clw img {
+    width: 100%;
+    background: white;
+    height: 111px;
+}
+
+.clw .wp {
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.chart-2 .right-2 {
+    width: 50%;
+    height: 100%;
+}
+
+.right-2 .ru {
+    display: flex;
+    height: 32px;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ru .ru-p {
+    background: #FF00B7;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    position: absolute;
+    right: 102px;
+}
+
+.ru select {
+    height: 24px;
+    border-radius: 12px;
+    width: 125px;
+    padding: 0px 13px;
+    color: #B4B5B7;
+    border: 1px solid #DCDDDE;
+}
+
+.rd table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #B4B5B7;
+}
+
+.rd th,
+.rd tr:not(:last-child) {
+    border-bottom: 1px solid black;
+}
+
+/* For Chart Three */
+.chart-3 {
+    height: 209px;
+    width: 100%;
+    display: flex;
+    border-radius: 4px;
+}
+
+.chart-3 .left-3 {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-3 .ctu {
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    align-items: center;
+    width: 100%;
+}
+
+.ctu h2 span {
+    /* height: 17px; */
+    background: #FF00B7;
+    width: 20px;
+    border-radius: 15px;
+    display: inline-block;
+    padding: 2px;
+}
+
+.ctu select {
+    border-radius: 12px;
+    color: #B4B5B7;
+    border: 1px solid #DCDDDE;
+}
+
+.left-3 .ctd {
+    width: 100%;
+}
+
+.left-3 .ctd table {
+    width: 90%;
+    border-collapse: collapse;
+    font-size: 12px;
+    height: 128px;
+    color: #B4B5B7;
+}
+
+.ctd th,
+.ctd tr:not(:last-child) {
+    border-bottom: 1px solid black;
+}
+
+.chart-3 .right-3 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.right-3 .cru {
+    width: 100%;
+    height: 15%;
+    padding-left: 11px;
+    text-align: justify;
+    margin-top: 12px;
+
+}
+
+.right-3 .crd {
+    height: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-3 .crd img {
+    height: 120px;
+}
+@media only screen and (max-width:973px) {
+
+
+    .sideOne-right .menus {
+        gap: 62px;
+    }
+}
+@media only screen and (max-width:915px) {
+    .sideOne{
+height: auto;
+    }
+    .sideOne-right .menus {
+        gap: 62px;
+    }
+
+    .menus p {
+        font-size: 13px;
+        margin-bottom: 15px;
+
+    }
+
+    .sideOne-right .lappi {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width:916px) {
+
+
+    .sideOne-right .menus {
+        gap: 62px;
+    }
+}
+
+
+@media only screen and (max-width:879px) {
+    .calendr h2 {
+  
+        font-size: 12px;
+    }
+    .sideTwo {
+        height: auto;
+    }
+
+    .sideTwo .chart-1 {
+        height: auto;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .chart-1 .chart-left {
+        width: 100%;
+    }
+
+    .chart-1 .chart-right {
+        width: 100%;
+    }
+
+    .chart-2 {
+        height: auto;
+        flex-direction: column;
+        margin-top: 20px;
+
+    }
+
+    .chart-2 .left-2 {
+        width: 100%;
+    }
+
+    .left-2 .clu {
+        height: auto;
+    }
+
+    .left-2 .cld {
+        height: auto;
+        margin-top: 13px;
+    }
+
+    .chart-2 .right-2 {
+        width: 100%;
+        margin-top: 27px;
+
+    }
+
+    .chart-3 {
+        height: auto;
+        flex-direction: column;
+        margin-top: 20px;
+
+    }
+
+    .chart-3 .left-3 {
+        width: 100%;
+    }
+
+    .chart-3 .right-3 {
+        width: 100%;
+    }
+    .sideTwo .variation {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .variation .v-1,
+    .v-2,
+    .v-3,
+    .v-4 {
+        height: auto;
+        width: auto;
+    }
+}
+@media only screen and (max-width:805px) {
+
+
+    .sideOne-right .menus {
+        gap: 57px;
+    }
+}
+
+@media only screen and (max-width:782px) {
+
+    .sideOne .sideOne-left {
+        width: 54%;
+    }
+
+    .sideOne-right {
+        width: 46%;
+    }
+
+    .sideOne-right .dashboard {
+        width: 100%;
+    }
+
+    .sideOne-right .menus {
+        gap: 61.5px;
+    }
+    .sideOne-right .menus {
+        gap: 57px;
+    }
+}
+
+@media only screen and (max-width:728px) {
+
+
+    .sideOne-right .menus {
+        gap: 66.5px;
+    }
+
+    .menus p {
+        margin-bottom: 0px;
+    }
+
+    .calendr img {
+        width: 92%;
+    }
+
+    .sideOne-right .name {
+        font-size: 12px;
+    }
+}
+/* @media only screen and (max-width:805px) {
+
+
+    .sideOne-right .menus {
+        gap: 57px;
+    }
+}
+@media only screen and (max-width:728px) {
+
+
+    .sideOne-right .menus {
+        gap: 67px;
+    }
+    .s-menu .list {
+        font-size: xx-small;
+    }
+} */
+@media only screen and (max-width:686px) {
+
+.calendr input {
+    right: 9px;  
+    width: 43px;
+    padding-left: 5px;
+}
+.calendr h2 {
+    font-size: 12px;
+}
+}

@@ -1,0 +1,136 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+nav {
+    height: 56px;
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 10px;
+    /* box-shadow: 0px 20px 46px -2px #E7E6E6; */
+}
+
+.inner-nav {
+    height: 100%;
+    width: auto;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0px 0px 16px -2px #E7E6E6;
+
+}
+
+
+.nav-items-left {
+    height: 100%;
+    width: auto;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.nav-items-left img {
+    width: 150px;
+}
+
+.nav-items-left .bars {
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+
+.nav-items-left .search {
+    position: absolute;
+    font-size: 32px;
+    right: 2%;
+    padding: 3px;
+}
+
+.nav-items-left input {
+    border-radius: 16px;
+    height: 85%;
+}
+
+.nav-items-left ::-webkit-input-placeholder {
+    padding-left: 12px;
+}
+
+.nav-items-right {
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.nav-items-right .icons {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons .settings {
+    background: blue;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding: 4px;
+    color: white;
+}
+
+.icons p {
+    background: blue;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding: 4px;
+    color: white;
+
+}
+
+.icons #third {
+    background: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: -12px;
+}
+
+.icons select {
+    border: 1px transparent;
+}
+
+.nav-items-right .bar-m {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    display: flex;
+}
+
+
+.nav-items-right .bars {
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+
+
+@media only screen and (max-width:822px) {
+    .nav-items-right .icons {
+        display: none;
+    }
+
+    .inner-nav .bar-m {
+        display: flex;
+        margin-right: 12px;
+    }
+
+}
